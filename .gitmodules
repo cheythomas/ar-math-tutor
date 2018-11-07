@@ -4,3 +4,6 @@
 [submodule "app/src/test/java/AR"]
 	path = app/src/test/java/AR
 	url = https://github.com/google-ar/arcore-android-sdk.git
+[submodule "app/src/test/java/OCR"]
+	path = app/src/test/java/OCR
+	url = https://github.com/tesseract-ocr/tesseract.git
