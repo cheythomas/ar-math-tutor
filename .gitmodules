@@ -1,0 +1,6 @@
+[submodule "ar-math-tutor/app/src/test/java/AR"]
+	path = ar-math-tutor/app/src/test/java/AR
+	url = https://github.com/google-ar/arcore-android-sdk.git
+[submodule "app/src/test/java/AR"]
+	path = app/src/test/java/AR
+	url = https://github.com/google-ar/arcore-android-sdk.git
