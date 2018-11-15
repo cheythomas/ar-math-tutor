@@ -2,14 +2,16 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#001a00">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:textSize="25sp"
-        android:text="Hello from About tab"
+        android:textColor="#ffffff"
+        android:text="AR Math Tutor\nVersion 1.0\n\n\nAR Math Tutor is a augmented reality math tutoring solver that helps you learn by steping through the problem\n\n\n\n\n\n\n Review this app "
         android:layout_marginTop="40dp"
         android:id="@+id/textTab3" />
 
