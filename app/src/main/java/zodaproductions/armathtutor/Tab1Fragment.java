@@ -23,6 +23,7 @@ public class Tab1Fragment extends Fragment {
     public class WolframAlpha extends Activity {
 
         private static String AppId = "LG7KVL-QJV2T43KWX";
+        public static String Response = " ";
 
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
@@ -32,7 +33,7 @@ public class Tab1Fragment extends Fragment {
 
         WAQueryResult queryResult;
 
-        private class WlframAlpha extends AsyncTask<WAQueryResult, Void, WAQueryResult> {
+        private class WolframAlpha extends AsyncTask<WAQueryResult, Void, WAQueryResult> {
 
 
             protected void onPreExecute() {
